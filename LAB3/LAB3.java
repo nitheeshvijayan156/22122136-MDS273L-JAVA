@@ -10,7 +10,7 @@ public class LAB3 {
     }
     static double median(int arr[]){
         double med=0;
-        //Arrays.sort(arr);
+        Arrays.sort(arr);
         if(arr.length/2!=0){
             med=arr[arr.length / 2];
         }
@@ -42,25 +42,31 @@ public class LAB3 {
         System.out.println("Enter the Limit for the Array");
         int n=obj.nextInt();
         int temp=0;
+        int choice;
         int[] arr=new int[n];
         System.out.println("Enter the Elements");
         for (int i=0; i<n; i++){
             arr[i]=obj.nextInt();
         }
         System.out.println("1.MEAN 2.MEDIAN 3.MODE");
-        System.out.println("\n\t ENTER YOUR CHOICE");
-        int ch = obj.nextInt();
-        switch(ch){
-            case 1:
-            mean(arr, temp, n);
-            break;
-            case 2:
-            median(arr);
-            break;
-            case 3:
-            mode(arr,temp);
-            break;
-            }
+        do{
+            System.out.println("\n\t ENTER YOUR CHOICE");
+            int ch = obj.nextInt();
+            switch(ch){
+                case 1:
+                mean(arr, temp, n);
+                break;
+                case 2:
+                median(arr);
+                break;
+                case 3:
+                mode(arr,temp);
+                break;
+                }
+            System.out.println("If you want to continue press 1");
+            System.out.println("EXIT press any key");
+            choice = obj.nextInt();
+        }while(choice==1);
     }
     
 }
