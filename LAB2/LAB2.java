@@ -14,13 +14,9 @@ public class LAB2{
             switch(ch){
                 
                 case 1:
-                String temp;
-                String newname;
-                System.out.println("ENTER THE NAME");
-                temp = obj.nextLine();
+                System.out.println("ENETER THE NAME");
                 for(int i=0; i<n; i++){
                     name[i] = obj.nextLine();
-
                 }
                 break;
 
@@ -29,7 +25,7 @@ public class LAB2{
                 String sname =obj.nextLine();
                 for(int i=0; i<n; i++){
                     if (name[i].equalsIgnoreCase(sname)) {
-                        System.out.println("NAME FOUND AT INDEX " + i);
+                        System.out.println("Name found at index " + i);
                         System.out.println("NAME IS:"+name[i]);
                     }
                 }
@@ -46,13 +42,13 @@ public class LAB2{
                       }
                     }
                     if (index == -1) {
-                      System.out.println("NAME NOT FOUND");
+                      System.out.println("Name not found");
                     } else {
                         for (int i = index; i < n - 1; i++) {
                         name[i] = name[i + 1];
                         }
                         n--;
-                        System.out.println("NAME REMOVED SUCCESSFULLY");
+                        System.out.println("Name removed successfully");
                         }
                 break;
 
