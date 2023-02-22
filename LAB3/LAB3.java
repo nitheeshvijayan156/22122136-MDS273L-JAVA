@@ -63,8 +63,8 @@ public class LAB3 {
                 mode(arr,temp);
                 break;
                 }
-            System.out.println("IF YOU WANT TO CONTINUE PRESS 1 \t or \n PRESS ANY KEY TO EXIT ");
-            choice =obj.nextInt();
+        System.out.println("IF YOU WANT TO CONTINUE PRESS 1 \t or \n PRESS ANY KEY TO EXIT ");
+        choice =obj.nextInt();
         }while(choice==1);
     }
     
