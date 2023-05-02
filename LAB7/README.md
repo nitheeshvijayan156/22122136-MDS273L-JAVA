@@ -9,22 +9,32 @@ Present your results in the appropriate format and write the results in a file.
 
 OUTPUT
 
-Count of A is 357
-Count of E is 504
-Count of I is 360
-Count of O is 260
-Count of U is 107
-Count of 1 is 6
-Count of 2 is 7
-Count of 3 is 4
-Count of 4 is 2
-Count of 5 is 4
-Count of 6 is 2
-Count of 7 is 4
-Count of 8 is 2
-Count of 9 is 0
-Count of 0 is 6
-5 most frequent words: [and, of, the, in, energy]
-5 least frequent words: [today's, digital, age, utmost, importance]
-5 most frequent characters: [e, i, a, t, n]
-5 least frequent characters: [8, 6, z, 4, j]
+****************************************TOTAL****************************************
+|PARAMETER    |MEAN         |MEDIAN       |MODE         |MAX          |MIN          |
+|SEPAL LENGTH |5.8433347    |5.8          |5.0          |7.9          |4.3          |
+|SEPAL WIDTH  |3.054        |3.0          |3.0          |4.4          |2.0          |
+|PETAL LENGTH |3.7586665    |4.3500004    |1.5          |6.9          |1.0          |
+|PETAL WIDTH  |1.1986669    |1.3          |0.2          |2.5          |0.1          |
+
+****************************************SETOSA****************************************
+|PARAMETER    |MEAN         |MEDIAN       |MODE         |MAX          |MIN          |
+|SEPAL LENGTH |5.0059996    |5.0          |5.0          |5.8          |4.3          |
+|SEPAL WIDTH  |3.4180002    |3.4          |3.4          |4.4          |2.3          |
+|PETAL LENGTH |1.464        |1.5          |1.5          |1.9          |1.0          |
+|PETAL WIDTH  |0.24399997   |0.2          |0.2          |0.6          |0.1          |
+
+****************************************VERSICOLOR****************************************
+|PARAMETER    |MEAN         |MEDIAN       |MODE         |MAX          |MIN          |
+|SEPAL LENGTH |5.936002     |5.9          |5.5          |7.0          |4.9          |
+|SEPAL WIDTH  |2.77         |2.8          |3.0          |3.4          |2.0          |
+|PETAL LENGTH |4.26         |4.3500004    |4.5          |5.1          |3.0          |
+|PETAL WIDTH  |1.3259999    |1.3          |1.3          |1.8          |1.0          |
+
+****************************************VIRGINICA****************************************
+|PARAMETER    |MEAN         |MEDIAN       |MODE         |MAX          |MIN          |
+|SEPAL LENGTH |6.5879993    |6.5          |6.3          |7.9          |4.9          |
+|SEPAL WIDTH  |2.9740002    |3.0          |3.0          |3.8          |2.2          |
+|PETAL LENGTH |5.5520005    |5.55         |5.1          |6.9          |4.5          |
+|PETAL WIDTH  |2.0260003    |2.0          |1.8          |2.5          |1.4          |
+
+Output written to file 'output.txt'
